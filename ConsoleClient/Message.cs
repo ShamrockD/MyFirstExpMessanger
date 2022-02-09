@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyFirstExpMessanger
 {
+    [Serializable]
     public class Message
     {
 
