@@ -1,8 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 
-Console.WriteLine("Hello, Soon new app comes!");
+namespace MyFirstExpMessanger
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Message msg = new Message();
+            Console.WriteLine("Server is Running behind");
+            Console.WriteLine(msg.ToString());
+        }
+    }
+}

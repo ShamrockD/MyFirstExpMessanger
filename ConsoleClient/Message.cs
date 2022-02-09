@@ -24,9 +24,14 @@ namespace MyFirstExpMessanger
         public Message()
         {
             UserName = "System";
-            MessageText = "Server is Running";
+            MessageText = "Server is Running...";
             TimeStamp = DateTime.Now;
         }
 
+        public override string? ToString()
+        {
+            string output = String.Format("{0} <{2}>: {1}", UserName, MessageText, TimeStamp);
+            return output;
+        }
     }
 }
