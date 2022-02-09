@@ -21,5 +21,12 @@ namespace MyFirstExpMessanger
             TimeStamp = timeStamp;
         }
 
+        public Message()
+        {
+            UserName = "System";
+            MessageText = "Server is Running";
+            TimeStamp = DateTime.Now;
+        }
+
     }
 }
